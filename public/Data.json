@@ -1,0 +1,25 @@
+{
+  "Service": [
+    {
+      "id": 1,
+      "icon_name": "bi bi-battery-charging",
+      "title": "ReCharge",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, quisquam quaerat quia omnis ut porro",
+      "btn": "Show More"
+    },
+    {
+      "id": 2,
+      "icon_name": "bi bi-cpu-fill",
+      "title": "CPU",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, quisquam quaerat quia omnis ut porro",
+      "btn": "Show More"
+    },
+    {
+      "id": 3,
+      "icon_name": "bi bi-speedometer",
+      "title": "SPPED",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, quisquam quaerat quia omnis ut porro",
+      "btn": "Show More"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+$orange-color: #f94d00;
+$blue-color: #1d2951;
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap"); //name font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"); // global font
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"); // main font
+$name-font: "Nabla", cursive;
+$global-font: "Montserrat", sans-serif;
+$header-font: "Dancing Script", cursive;
+* {
+  font-family: $global-font;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+}
+@import "components/Navbar/Navbar";
+@import "components/Home/Home";
+@import "components/About/About";
+@import "components/Contact/Contact";
+@import "components/Service/Service";
+@import "components/Portfilo/Portfilo";
+@import "components/Plan/Plan";
+@import "components/Footer/Footer";
