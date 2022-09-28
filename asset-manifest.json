@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Abdallh/static/css/main.2c92c465.css",
+    "main.js": "/Abdallh/static/js/main.ef236fcb.js",
+    "static/js/787.9181411e.chunk.js": "/Abdallh/static/js/787.9181411e.chunk.js",
+    "static/media/test.jpg": "/Abdallh/static/media/test.bb9885782443b38dc599.jpg",
+    "static/media/About.jpg": "/Abdallh/static/media/About.d586fd904ee2d92c2d83.jpg",
+    "static/media/Contact.jpg": "/Abdallh/static/media/Contact.d586fd904ee2d92c2d83.jpg",
+    "static/media/plan.png": "/Abdallh/static/media/plan.cace29f87c074f8e6ce6.png",
+    "static/media/Portfilo.jpg": "/Abdallh/static/media/Portfilo.e00937f2dc5903e505e5.jpg",
+    "static/media/Footer.jpg": "/Abdallh/static/media/Footer.4fe6d2057bcf0675e88f.jpg",
+    "static/media/svg-shape-12.svg": "/Abdallh/static/media/svg-shape-12.e731830af06062dc75c2.svg",
+    "index.html": "/Abdallh/index.html",
+    "main.2c92c465.css.map": "/Abdallh/static/css/main.2c92c465.css.map",
+    "main.ef236fcb.js.map": "/Abdallh/static/js/main.ef236fcb.js.map",
+    "787.9181411e.chunk.js.map": "/Abdallh/static/js/787.9181411e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c92c465.css",
+    "static/js/main.ef236fcb.js"
+  ]
+}
