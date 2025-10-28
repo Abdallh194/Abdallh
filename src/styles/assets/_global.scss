@@ -19,3 +19,14 @@ body {
   font-family: $main-font;
   font-weight: 400;
 }
+
+.bg-linner {
+  background: linear-gradient(45deg, #5600f7, #d401f0);
+  color: #fff !important;
+}
+
+.center-hir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

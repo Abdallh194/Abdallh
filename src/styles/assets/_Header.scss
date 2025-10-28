@@ -1,11 +1,13 @@
 .navbar {
-  background-color: $gray-color !important;
+  background-color: rgba(63, 57, 69, 0.95) !important;
   color: white !important;
   max-width: 84%;
   margin: 20px auto;
   padding: 10px 25px;
   border: 2px solid #5b5b5b;
   border-radius: 15px;
+  position: relative;
+  z-index: 1;
   .logo {
     font-size: 27px;
     font-family: $header-font;
@@ -37,6 +39,7 @@
     border-radius: 10px;
     cursor: pointer;
     color: white;
+    text-decoration: none;
   }
   .d-mobile-view {
     display: none;
