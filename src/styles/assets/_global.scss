@@ -1,0 +1,21 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); //main font
+@import url("https://fonts.googleapis.com/css2?family=Danfo:ELSH@0..100&display=swap"); //logo font
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"); // header font
+
+//vars
+$bg-color: #100817;
+$header-font: "Syne", sans-serif;
+$logo-font: "Danfo", serif;
+$main-font: "Montserrat";
+$dark-color: #100817;
+$gray-color: #3f3945;
+$purple-color: #d401f0;
+$blue-color: #5600f7;
+html,
+body {
+  background-color: $bg-color;
+  color: white;
+  font-family: $main-font;
+  font-weight: 400;
+}

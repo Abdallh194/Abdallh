@@ -1,0 +1,179 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Danfo:ELSH@0..100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+html,
+body {
+  background-color: #100817;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.not_found {
+  text-align: center;
+}
+.not_found .main-head {
+  font-size: 21px;
+  color: red;
+}
+.not_found .main-desc {
+  font-size: 19px;
+}
+.not_found .back-link {
+  color: white;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .not_found .animation {
+    width: 380px !important;
+  }
+}
+
+.navbar {
+  background-color: #3f3945 !important;
+  color: white !important;
+  max-width: 84%;
+  margin: 20px auto;
+  padding: 10px 25px;
+  border: 2px solid #5b5b5b;
+  border-radius: 15px;
+}
+.navbar .logo {
+  font-size: 27px;
+  font-family: "Syne", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.navbar .logo span {
+  color: #d401f0;
+}
+.navbar .logo img {
+  width: 87px;
+}
+.navbar .links {
+  flex-grow: 1;
+  justify-content: center;
+}
+.navbar .link {
+  margin-right: 51px;
+  text-decoration: none !important;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 9px !important;
+}
+.navbar .hire-me {
+  background: linear-gradient(45deg, #5600f7, #d401f0);
+  font-size: 22px;
+  padding: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.navbar .d-mobile-view {
+  display: none;
+  font-size: 15px;
+  padding: 9px;
+}
+.navbar .navbar-toggler {
+  filter: invert(4) brightness(7.5);
+  font-size: 17px;
+  border: none;
+}
+.navbar .active {
+  color: white !important;
+  border-right: 2px solid #d401f0;
+  border-left: 2px solid #d401f0;
+  position: relative;
+  transition: 0.2s;
+  overflow: hidden;
+}
+.navbar .active::before, .navbar .active::after {
+  position: absolute;
+  content: "";
+  transition: 0.2s;
+  width: 100%;
+  height: 2px;
+  background-color: #d401f0;
+}
+.navbar .active::before {
+  bottom: 0;
+  left: -50%;
+}
+.navbar .active::after {
+  top: 0;
+  right: -50%;
+}
+.navbar .active:hover {
+  color: #d401f0 !important;
+}
+.navbar .active:hover::before {
+  left: 0;
+}
+.navbar .active:hover::after {
+  right: 0;
+}
+@media (max-width: 1400px) {
+  .navbar {
+    max-width: 98%;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar .link {
+    font-size: 16px;
+    margin-right: 27px;
+  }
+  .navbar .hire-me {
+    font-size: 13px;
+    padding: 13px;
+  }
+  .navbar .logo {
+    font-size: 23px;
+  }
+  .navbar .logo img {
+    width: 65px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar .d-mobile-view {
+    display: block !important;
+  }
+  .navbar .active {
+    border: none;
+  }
+  .navbar .active::before, .navbar .active::after {
+    display: none;
+  }
+  .navbar .link {
+    padding: 10px 5px !important;
+  }
+  .navbar .hire-me {
+    display: none;
+  }
+  .navbar .logo {
+    font-size: 18px;
+  }
+  .navbar .logo span {
+    color: white;
+  }
+}
+@media (max-width: 767px) {
+  .navbar {
+    max-width: 93%;
+    padding: 5px 0px;
+  }
+}
+
+.LandingPage .hello-wrd {
+  color: transparent;
+  -webkit-text-stroke: 4px #77727c;
+  font-size: 203px;
+  position: relative;
+  top: -122px;
+  opacity: 0.4;
+  text-align: center;
+  font-weight: 900;
+  font-family: Syne;
+}/*# sourceMappingURL=index.css.map */

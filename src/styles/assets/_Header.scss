@@ -1,0 +1,134 @@
+.navbar {
+  background-color: $gray-color !important;
+  color: white !important;
+  max-width: 84%;
+  margin: 20px auto;
+  padding: 10px 25px;
+  border: 2px solid #5b5b5b;
+  border-radius: 15px;
+  .logo {
+    font-size: 27px;
+    font-family: $header-font;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    span {
+      color: $purple-color;
+    }
+    img {
+      width: 87px;
+    }
+  }
+  .links {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .link {
+    margin-right: 51px;
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 9px !important;
+  }
+  .hire-me {
+    background: linear-gradient(45deg, #5600f7, #d401f0);
+    font-size: 22px;
+    padding: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .d-mobile-view {
+    display: none;
+    font-size: 15px;
+    padding: 9px;
+  }
+  .navbar-toggler {
+    filter: invert(4) brightness(7.5);
+    font-size: 17px;
+    border: none;
+  }
+
+  .active {
+    color: white !important;
+    border-right: 2px solid $purple-color;
+    border-left: 2px solid $purple-color;
+    position: relative;
+    transition: 0.2s;
+    overflow: hidden;
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      transition: 0.2s;
+      width: 100%;
+      height: 2px;
+      background-color: $purple-color;
+    }
+    &::before {
+      bottom: 0;
+      left: -50%;
+    }
+    &::after {
+      top: 0;
+      right: -50%;
+    }
+    &:hover {
+      color: $purple-color !important;
+      &::before {
+        left: 0;
+      }
+      &::after {
+        right: 0;
+      }
+    }
+  }
+  @media (max-width: 1400px) {
+    max-width: 98%;
+  }
+  @media (max-width: 1200px) {
+    .link {
+      font-size: 16px;
+      margin-right: 27px;
+    }
+    .hire-me {
+      font-size: 13px;
+      padding: 13px;
+    }
+    .logo {
+      font-size: 23px;
+      img {
+        width: 65px;
+        margin-right: 5px;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .d-mobile-view {
+      display: block !important;
+    }
+    .active {
+      &::before,
+      &::after {
+        display: none;
+      }
+      border: none;
+    }
+    .link {
+      padding: 10px 5px !important;
+    }
+    .hire-me {
+      display: none;
+    }
+    .logo {
+      font-size: 18px;
+      span {
+        color: white;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    max-width: 93%;
+    padding: 5px 0px;
+  }
+}

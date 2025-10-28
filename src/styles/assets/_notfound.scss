@@ -1,0 +1,19 @@
+.not_found {
+  text-align: center;
+  .main-head {
+    font-size: 21px;
+    color: red;
+  }
+  .main-desc {
+    font-size: 19px;
+  }
+  .back-link {
+    color: white;
+    font-weight: 500;
+  }
+  @media (max-width: 767px) {
+    .animation {
+      width: 380px !important;
+    }
+  }
+}
