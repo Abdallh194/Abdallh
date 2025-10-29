@@ -8,6 +8,7 @@ body {
   color: white;
   font-family: "Montserrat";
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .bg-linner {
@@ -19,6 +20,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  max-width: 1600px;
 }
 
 .not_found {
@@ -475,6 +480,212 @@ body {
 }
 
 .LandingAbout {
+  margin-top: 75px;
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+}
+.LandingAbout .container {
+  max-width: 1600px;
+}
+.LandingAbout .top-t {
+  font-size: 21px;
+  color: rgba(255, 255, 255, 0.8549019608);
+}
+.LandingAbout .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("/about.png") no-repeat;
+  background-size: cover;
+  left: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+.LandingAbout .about-card {
+  width: calc(25% - 20px);
+  margin: 10px auto;
+  margin-top: 50px;
+  background-color: rgba(63, 57, 69, 0.871);
+  border: 2px solid rgba(103, 99, 107, 0.761);
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+.LandingAbout .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  font-size: 50px;
+  margin: auto;
+}
+.LandingAbout .card-header {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.LandingAbout .card-desc {
+  margin-top: 15px;
+  color: hsla(0, 0%, 100%, 0.63);
+  font-size: 17px;
+  font-weight: 500;
+}
+.LandingAbout .cus-card {
+  margin-top: 140px;
+}
+.LandingAbout .main-head {
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Syne", sans-serif;
+  z-index: 1;
+}
+.LandingAbout .main-head span {
+  font-family: "Danfo", serif;
+  display: inline-block;
+  color: #d401f0;
+  transform: rotate(13deg);
+}
+.LandingAbout .main-desc {
+  font-size: 18px;
+  color: #d8d8d8;
+}
+@media (max-width: 1200px) {
+  .LandingAbout .main-head {
+    font-size: 27px;
+  }
+  .LandingAbout .main-desc {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .LandingAbout .about-card {
+    width: 48%;
+  }
+  .LandingAbout .main-desc {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  .LandingAbout .about-card {
+    width: 94%;
+  }
+  .LandingAbout .cus-card,
+  .LandingAbout .about-card {
+    margin-top: 4px;
+  }
+  .LandingAbout .main-head {
+    font-size: 23px;
+  }
+}
+
+.LandingRecent {
   margin-top: 70px;
   padding: 40px 0;
+}
+.LandingRecent .row {
+  margin-top: 30px;
+}
+.LandingRecent .head {
+  font-size: 21px;
+  color: hsla(0, 0%, 100%, 0.725);
+}
+.LandingRecent .main-head {
+  margin: 5px auto;
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+.LandingRecent .main-head span {
+  padding: 4px;
+}
+.LandingRecent .head,
+.LandingRecent .main-head {
+  text-align: center;
+}
+.LandingRecent .work-card {
+  background-color: #212529;
+  width: calc(25% - 20px);
+  margin: 10px auto;
+  padding: 30px 24px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.LandingRecent .work-card .demo {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.LandingRecent .work-card:hover .demo {
+  transform: scale(1.1);
+}
+.LandingRecent .work-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+.LandingRecent .work-desc {
+  color: rgba(255, 255, 255, 0.6980392157);
+  padding: 12px 0;
+  font-size: 15px;
+}
+@media (max-width: 1200px) {
+  .LandingRecent .work-card {
+    width: 49%;
+  }
+}
+@media (max-width: 767px) {
+  .LandingRecent {
+    margin-top: 0;
+  }
+  .LandingRecent .work-card {
+    width: 93%;
+  }
+  .LandingRecent .main-head {
+    font-size: 21px;
+  }
+  .LandingRecent .head {
+    font-size: 18px;
+  }
+}
+
+.LandingSkills {
+  margin-top: 70px;
+  padding: 40px 0;
+}
+.LandingSkills .head {
+  font-size: 31px;
+  font-weight: 700;
+}
+.LandingSkills .skill_container {
+  background-color: white;
+  height: 5px;
+  position: relative;
+}
+.LandingSkills .skill_press {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.LandingSkills .skill_name {
+  font-size: 19px;
+  font-weight: 700;
+}
+.LandingSkills .con_skill {
+  margin-top: 16px;
+}
+.LandingSkills .ani {
+  margin: auto;
+  width: 118%;
+}
+@media (max-width: 992px) {
+  .LandingSkills {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=index.css.map */

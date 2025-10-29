@@ -1,39 +1,68 @@
+import { Col, Container, Row } from "react-bootstrap";
+import { BsClockHistory } from "react-icons/bs";
+import { FaLightbulb } from "react-icons/fa";
+import { GiElectricalCrescent } from "react-icons/gi";
+import { LuListChecks } from "react-icons/lu";
+
 const LandingAbout = () => {
+  const Cardsdata = [
+    {
+      id: 1,
+      icon: <FaLightbulb />,
+      header: "Creative Brainstorming",
+      desc: "I transform your ideas into innovative design solutions that surpass your initial vision.",
+      className: "about-card",
+    },
+    {
+      id: 2,
+      icon: <GiElectricalCrescent />,
+      header: "Dedication & Drive",
+      desc: "I pour all my energy into building exceptional web interfaces, never settling for less than perfection.",
+      className: "about-card cus-card",
+    },
+    {
+      id: 3,
+      icon: <LuListChecks />,
+      header: "Design Testing & Precision",
+      desc: "We meticulously plan and test every detail to ensure an intuitive, user-friendly experience.",
+      className: "about-card",
+    },
+    {
+      id: 4,
+      icon: <BsClockHistory />,
+      header: "Guaranteed On-Time Delivery",
+      desc: "Committed to deadlines, I deliver on time with transparent communication throughout the process.",
+      className: "about-card cus-card",
+    },
+  ];
   return (
     <div id="AboutMe" className="LandingAbout">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error alias
-      voluptate suscipit, accusantium ipsa voluptatem commodi excepturi unde, ab
-      beatae soluta iste id aperiam odit voluptates expedita omnis est quisquam.
-      Iure placeat velit expedita distinctio! Omnis, dolorem dolore ab
-      necessitatibus optio animi veritatis quo quod consectetur minima in
-      dolorum cumque, quisquam, sunt rerum. Officiis sed reprehenderit animi
-      nobis libero porro? Eveniet nostrum aliquid perferendis unde magnam
-      ducimus, magni inventore sed molestiae laboriosam! Praesentium minus nemo
-      perspiciatis suscipit fuga ducimus aperiam error debitis, laudantium ea
-      iste earum quo veniam, reprehenderit commodi. Maiores alias sit inventore
-      corrupti quibusdam, veniam commodi non minima earum voluptates nulla quod
-      reprehenderit mollitia repudiandae porro cum ea tempore dolorem minus.
-      Rerum eligendi dolorum minus commodi ratione odit. Eius eaque possimus,
-      corrupti soluta placeat repellendus libero odit ratione, ex repudiandae
-      asperiores quia minus facilis voluptatibus facere sunt, corporis
-      perferendis. Ipsa magni iure iusto quas eligendi placeat officia earum?
-      Minus in sint blanditiis nihil. Tenetur, porro velit! Est vitae aut
-      accusantium ducimus. Nulla ea quibusdam omnis architecto dolorem, id
-      vitae. Facere sequi fugiat doloremque nihil voluptas. Quasi, perspiciatis
-      deleniti? Dolore, architecto earum blanditiis debitis officiis, qui
-      voluptatibus provident exercitationem commodi accusamus numquam facere!
-      Consequuntur atque quibusdam aspernatur quidem fugiat explicabo
-      dignissimos aut rem non harum, est pariatur animi et? Dolores, veritatis!
-      Eaque, nostrum ad adipisci aperiam saepe error odit itaque recusandae
-      cumque tempore aliquid qui quos alias magnam natus aliquam dolor labore
-      exercitationem blanditiis voluptate harum voluptatem! Odio, numquam.
-      Nostrum maiores aut fuga minus rerum iure libero deserunt perspiciatis
-      provident suscipit, placeat saepe, omnis voluptate totam voluptates vero?
-      Molestiae dolore praesentium dolorum cum labore officiis recusandae eum
-      suscipit provident. Culpa illum facilis quod et pariatur, id veritatis
-      porro cupiditate! Quos cupiditate iste illum harum enim praesentium, non
-      porro qui ipsum magni eveniet autem quas et! Aliquid impedit laboriosam
-      reprehenderit?
+      <div className="overlay"></div>
+      <Container>
+        <div className="top-t">ABOUT ME</div>
+        <Row>
+          <Col md={12} lg={6}>
+            <div className="main-head">
+              Hello, I'm Abdallh Rakha A <span>Creative</span> Front-End
+              Developer
+            </div>
+          </Col>
+          <Col md={12} lg={6}>
+            <div className="main-desc">
+              Turning ideas into interactive reality. I build with purpose,
+              creating websites that are not just visually stunning but also
+              robust, scalable, and user-focused.
+            </div>
+          </Col>
+          {Cardsdata.map((card, idx) => (
+            <Col md={12} lg={3} className={card.className} key={idx}>
+              <div className="icon bg-linner center-hir ">{card.icon}</div>
+              <div className="card-header">{card.header}</div>
+              <div className="card-desc">{card.desc}</div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 };

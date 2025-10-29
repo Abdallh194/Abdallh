@@ -1,4 +1,100 @@
 .LandingAbout {
-  margin-top: 70px;
+  margin-top: 75px;
   padding: 40px 0;
+  position: relative;
+  z-index: 1;
+  .container {
+    max-width: 1600px;
+  }
+  .top-t {
+    font-size: 21px;
+    color: #ffffffda;
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("/about.png") no-repeat;
+    background-size: cover;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  .about-card {
+    width: calc(100% / 4 - 20px);
+    margin: 10px auto;
+    margin-top: 50px;
+    background-color: rgba(63, 57, 69, 0.871);
+    border: 2px solid rgba(103, 99, 107, 0.761);
+    text-align: center;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 40px 20px;
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 50px;
+    margin: auto;
+  }
+  .card-header {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .card-desc {
+    margin-top: 15px;
+    color: hsla(0, 0%, 100%, 0.63);
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .cus-card {
+    margin-top: 140px;
+  }
+  .main-head {
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    font-family: $header-font;
+    z-index: 1;
+    span {
+      font-family: $logo-font;
+      display: inline-block;
+      color: #d401f0;
+      transform: rotate(13deg);
+    }
+  }
+  .main-desc {
+    font-size: 18px;
+    color: #d8d8d8;
+  }
+  @media (max-width: 1200px) {
+    .main-head {
+      font-size: 27px;
+    }
+    .main-desc {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 992px) {
+    .about-card {
+      width: 48%;
+    }
+    .main-desc {
+      padding: 15px 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .about-card {
+      width: 94%;
+    }
+    .cus-card,
+    .about-card {
+      margin-top: 4px;
+    }
+    .main-head {
+      font-size: 23px;
+    }
+  }
 }
