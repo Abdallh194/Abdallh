@@ -688,4 +688,38 @@ body {
   .LandingSkills {
     margin-top: 0;
   }
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contact .head {
+  font-size: 42px;
+  font-weight: 800;
+  color: #fff;
+}
+.contact .desc {
+  color: hsla(0, 0%, 100%, 0.534);
+  margin-top: 20px;
+}
+.contact .contactbtn {
+  display: block;
+  text-decoration: none !important;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #d401f0;
+  margin: 20px auto;
+}
+@media (max-width: 767px) {
+  .contact .head {
+    font-size: 33px;
+  }
+  .contact .head span {
+    display: block;
+  }
 }/*# sourceMappingURL=index.css.map */
