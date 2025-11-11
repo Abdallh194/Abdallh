@@ -8,7 +8,7 @@ const LandingRecent = () => {
       id: 1,
       title: "seometta",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "A professional SEO and digital marketing website that helps businesses build a strong online presence.",
       imgsrc: "/work1.png",
       link: "https://www.seometta.com/",
     },
@@ -16,7 +16,7 @@ const LandingRecent = () => {
       id: 2,
       title: "plasteca",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "An industrial company website showcasing high-quality plastic products and sustainability since 1996.",
       imgsrc: "/work2.png",
       link: "https://plast-nine.vercel.app/",
     },
@@ -24,7 +24,7 @@ const LandingRecent = () => {
       id: 3,
       title: "Eshrak",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "A digital healthcare platform offering secure and fast online doctor consultations and appointments.",
       imgsrc: "/work3.png",
       link: "https://eshark-orcin.vercel.app/",
     },
@@ -32,7 +32,7 @@ const LandingRecent = () => {
       id: 4,
       title: "ASR Travel",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "A travel website featuring top deals and global experiences, especially focused on Cairo adventures.",
       imgsrc: "/work4.png",
       link: "https://asr-advisor.vercel.app/",
     },
@@ -40,7 +40,7 @@ const LandingRecent = () => {
       id: 5,
       title: "maktabti",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "A cultural platform for discovering, reading, and purchasing books in both digital and print formats. ",
       imgsrc: "/work5.png",
       link: "https://booky-peach.vercel.app/",
     },
@@ -48,7 +48,7 @@ const LandingRecent = () => {
       id: 6,
       title: "HomeBity",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "A real estate website that helps users find elegant and well-designed homes with ease.",
       imgsrc: "/work6.png",
       link: "https://home-bity.vercel.app/",
     },
@@ -56,15 +56,15 @@ const LandingRecent = () => {
       id: 7,
       title: "ASR Store",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "An eCommerce platform offering a wide range of products and exclusive deals on tech and more.",
       imgsrc: "/work7.png",
-      link: "exclusive-ecommerce-two.vercel.app",
+      link: "https://exclusive-ecommerce-two.vercel.app",
     },
     {
       id: 8,
       title: "ASR Media",
       workdesk:
-        "Turning ideas into interactive reality. I build with purpose,creating websites ",
+        "An entertainment website for streaming videos, news, and diverse multimedia content.",
       imgsrc: "/work8.jpg",
       link: "https://asrmedia.netlify.app/",
     },
