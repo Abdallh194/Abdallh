@@ -17,8 +17,13 @@ function Header() {
           </NavLink>
         </Nav>
         <Link to="/" className="logo">
-          <img src="./logo.webp" className="img-fluid" loading="lazy" />A
-          <span> . S . </span> R
+          <img
+            src="./logo.webp"
+            className="img-fluid"
+            loading="lazy"
+            alt="Abdallh sabry"
+          />
+          A<span> . S . </span> R
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

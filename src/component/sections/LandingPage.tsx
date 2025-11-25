@@ -27,20 +27,20 @@ const LandingPage = () => {
   return (
     <>
       <div className="LandingPage">
-        <h5 className="clip bg-linner"></h5>
+        <h1 className="clip bg-linner"></h1>
         <Container>
           <div className="hello-wrd">HELLO</div>
           <Row>
             <Col md={12} lg={6} className="info-card">
-              <h3 className="top_t">Hello There Iam</h3>
-              <h1 className="name">Abdallh Rakha</h1>
-              <h2 className="desc">
+              <h2 className="top_t">Hello There Iam</h2>
+              <h3 className="name">Abdallh Rakha</h3>
+              <h4 className="desc">
                 <span>Creative</span> FrontEnd
-              </h2>
+              </h4>
               <div className="exp">
                 With 4+ Years Of Experience skilled Front-End Developer
               </div>
-              <h4 className="d-flex btns">
+              <h5 className="d-flex btns">
                 <a
                   href="https://flowcv.com/resume/stsjfae5hn8r"
                   target="_blank"
@@ -51,7 +51,7 @@ const LandingPage = () => {
                 <a href="#AboutMe" className="show-work btn-g">
                   Show Work
                 </a>
-              </h4>
+              </h5>
               <div className="recent-clients center-hir">
                 <div className="d-flex">
                   {imgsrc.map((src, i) => (
