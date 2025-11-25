@@ -126,12 +126,13 @@
   }
   .avatar {
     border-radius: 50%;
-    width: 67px;
+    width: 62px;
     border: 3px solid white;
     margin-right: -11px;
+    object-fit: cover;
   }
   .res_num {
-    background-color: #bdbdbd;
+    background-color: #757575;
     font-size: 20px;
     font-weight: 700;
   }
