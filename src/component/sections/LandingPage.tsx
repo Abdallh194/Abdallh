@@ -42,7 +42,7 @@ const LandingPage = () => {
               </div>
               <h5 className="d-flex btns">
                 <a
-                  href="https://flowcv.com/resume/stsjfae5hn8r"
+                  href="https://flowcv.com/resume/2s1te4qtra"
                   target="_blank"
                   className="show-resume bg-linner btn-g"
                 >
