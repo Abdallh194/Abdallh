@@ -48,7 +48,7 @@ const LandingPage = () => {
                 >
                   Show Resume
                 </a>
-                <a href="#LandingRecent" className="show-work btn-g">
+                <a href="#Blog" className="show-work btn-g">
                   Show Work
                 </a>
               </h5>
